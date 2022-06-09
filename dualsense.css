@@ -1,0 +1,144 @@
+body { 
+    background-color: #000000; 
+    background-color: RGBA(0, 0, 0, 0); 
+    margin: 0 auto; 
+    overflow: hidden; 
+} .controller.ds4{
+    background: url(https://i.imgur.com/VgCrern.png);
+    width: 794px;
+    height: 639px;
+    margin-left: 0;
+    margin-top: 0;
+} .ds4 .sticks {
+	width: 367px;
+    height: 95px;
+    left: 222px;
+    top: 294px;
+}.ds4 .stick {
+    background: url(https://i.imgur.com/3sBwghP.png);
+    width: 95px;
+    height: 95px;
+} .ds4 .stick.pressed.left, .ds4 .stick.pressed.right {
+    background-position: -95px 0;
+} .ds4 .stick.right {
+    top: 0;
+    left: 255px;
+} .ds4 .abxy {
+    width: 181px;
+    height: 181px;
+    left: 559px;
+    top: 152px;
+} .ds4 .button {
+    background: url(https://i.imgur.com/HdHbA0t.png);
+    width: 54px;
+    height: 54px;
+} .ds4 .button.pressed {
+  	background-position-y: -55px;
+	margin-top: 0;
+} .ds4 .a {
+    background-position: 0 0;
+    left: 59px;
+    top: 116px;
+} .ds4 .b {
+    background-position: -54px 0;
+    left: 118px;
+    top: 59px;
+} .ds4 .x {
+    background-position: -108px 0;
+    left: 0px;
+    top: 58px;
+} .ds4 .y {
+    background-position: -162px 0;
+    left: 59px;
+    top: 0px;
+} .ds4 .arrows {
+    left: 195px;
+	top: 140px;
+    width: 416px;
+    height: 57px;
+} .ds4 .quadrant { 
+    display: none; 
+} .ds4 .back, .ds4 .start {
+    background: url(https://i.imgur.com/PrAfLDQ.png);
+    width: 23px;
+    height: 37px;
+    margin-top: -8px;
+    margin-left: 5px;
+    opacity: 0;
+} .ds4 .start {
+    background-position: 23px 0;
+    margin-right: 16px;
+    float: right;
+} .ds4 .dpad {
+	width: 144px;
+    height: 144px;
+    left: 71px;
+    top: 196px;
+} .ds4 .face {
+    background: none;
+} .ds4 .bumpers {
+    width: 620px;
+    height: 36px;
+    left: 90px;
+    top: 98px;
+} .ds4 .bumper {
+    background: url(https://i.imgur.com/wijYAzG.png);
+    width: 114px;
+    height: 36px;
+    opacity: 0;
+} .ds4 .bumper.right {
+    margin-right: 6px;
+} .ds4 .triggers {
+    width: 593px;
+    height: 97px;
+    left: 100px;
+} .ds4 .trigger {
+    background: url(https://i.imgur.com/KcAyIZw.png);
+    width: 100px;
+    height: 97px;
+    opacity: 0;
+} .ds4 .trigger.right {
+    background-position: -100px 0;
+	transform: rotateY(0);
+} .ds4 .touchpad {
+    width: 320px;
+    height: 167px;
+    position: absolute;
+    left: 237px;
+    top: 97px;
+} .ds4 .touchpad.pressed {
+    background: url(https://i.imgur.com/Gnd106J.png);
+} .ds4 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 171px;
+    left: 82px;
+} .ds4 .face {
+    background: url(https://i.imgur.com/548MWGT.png);
+    position: absolute;
+} .ds4 .face.up, .ds4 .face.down {
+    width: 44px;
+    height: 58px;
+} .ds4 .face.left, .ds4 .face.right {
+    width: 57px;
+    height: 44px;
+} .ds4 .face.up {
+    left: 45px;
+    top: 0;
+    background-position: 0px 0;
+} .ds4 .face.down {
+    left: 45px;
+    bottom: -7px;
+    background-position: -44px 0;
+} .ds4 .face.left {
+	top: 45px;
+    left: 0;
+    background-position: -88px 0;
+} .ds4 .face.right {
+    top: 44px;
+    right: -7px;
+    background-position: -144px 0;
+} .ds4 .face.pressed {
+    background-position-y: 58px;
+}
